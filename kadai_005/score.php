@@ -22,10 +22,15 @@
     $score10 = 60;
     ?>
     <?php
-    echo $score1 + $score2 + $score3 + $score4 + $score5 + $score6 +$score7 + $score8 + $score9 + $score10;
-    
-    
-    $average_score = ( $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10) / 10;
+    $sum_score = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 +$score7 + $score8 + $score9 + $score10;
+    echo $sum_score;
+    ?>
+   <br> 
+    <?php
+    $average_score = ( $sum_score) / 10;
 
-    
-
+    echo $average_score;
+    ?>
+    </p>
+</body>
+</html>
