@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -15,22 +14,4 @@
 
       print_r($personal_data);
 
-=======
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-   <meta charset="UTH-8">
-   <title>課題007</title>
-</head>
-
-<body>
-   <p>
-       <?php
-      //  連想配列に値を代入する
-      $personal_data = ['name' => 'onion', 'price' => 200, 'weight' =>150,];
-
-      print_r($personal_data);
-
->>>>>>> 082cc70f0baedeaeb2a831b96fd58d74ccd293e5
       
