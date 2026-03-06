@@ -9,17 +9,14 @@
 <body>
     <p>
         <?php
-
-
-
-
-        function sort_2way($array, $order) {
-            if ($order) {
+        function sort_2way($array, $order) 
+            if ($order) 
                 // 昇順
                 echo '昇順にソート<br>';
                 sort($array); // 引数に直接配列を渡す
-            } 
-            }
+                // 降順
+                echo '降順にソート<br>'
+                rsort($array); 
 
             // ソート結果を表示
             foreach ($array as $num) {
