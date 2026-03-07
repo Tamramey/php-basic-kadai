@@ -11,16 +11,16 @@
         <?php
         function sort_2way($array, $order) 
             if ($order) {
-                // 昇順
+                // 昇順ソート
                 echo '昇順にソート<br>';
                 sort($array); // 引数に直接配列を渡す
-            }
-            
-                // 降順
+            } else {
+            // 降順ソート
             else{
-                echo '降順にソート<br>'
+                echo '降順にソート<br>';
                 rsort($array); 
             }
+
 
 
             // ソート結果を表示
