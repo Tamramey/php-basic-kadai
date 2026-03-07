@@ -9,14 +9,13 @@
 <body>
     <p>
         <?php
-        function sort_2way($array, $order) 
+        function sort_2way($array, $order){
             if ($order) {
                 // 昇順ソート
                 echo '昇順にソート<br>';
                 sort($array); // 引数に直接配列を渡す
             } else {
             // 降順ソート
-            else{
                 echo '降順にソート<br>';
                 rsort($array); 
             }
@@ -38,11 +37,6 @@
 
         // 降順ソートの出力
         sort_2way($nums, false);
-        ?>
-    </p>
-</body>
-
-</html>
         ?>
     </p>
 </body>
