@@ -18,8 +18,6 @@
             
                 // 降順
             else{
-
-            
                 echo '降順にソート<br>'
                 rsort($array); 
             }
