@@ -9,14 +9,15 @@
 <body>
     <p>
         <?php
-        // 独自の関数 sort_2way を定義
+        // sort_2way を定義
         function sort_2way($array, $order) {
             
             if ($order) {
                 // 昇順ソート
                 echo '昇順にソートします。<br>';
                 sort($array);
-            } else {
+            } 
+            else {
                 // 降順ソート
                 echo '降順にソートします。<br>';
                 rsort($array);
@@ -24,7 +25,7 @@
 
             // ソートの結果の出力
             foreach ($array as $num) {
-                echo $num '<br>';
+                echo $num . '<br>';
             }
         }
 
