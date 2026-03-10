@@ -26,6 +26,21 @@
       // メソッドにアクセスして実行する
     
       print_r($food);
+
+      class Animal {
+        private $name;
+        private $height;
+
+        // コンストラクタを定義する
+        public function __construct(string $name, int $height) {
+          $this->name = $name;
+          $this->height = $height;
+        }
+      }
+      // インスタンス化
+      $animal = new Animal('dog',60);
+
+      print_r($animal);
       ?>
       </p>
 </body>
