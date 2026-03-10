@@ -20,14 +20,19 @@
               $this->name = $name;
               $this->price = $price;
           }
+      public function show_price() {
+        echo $this->price . '<br>';
+      }
       }
       // インスタンス化
       $food = new Food('potato',250);
       // メソッドにアクセスして実行する
+      $food->show_price();
     
       print_r($food);
 
-      class Animal {
+    class Animal {
+    
         private $name;
         private $height;
 
@@ -36,11 +41,19 @@
           $this->name = $name;
           $this->height = $height;
         }
-      }
+        public function show_height() {
+          echo $this->height . '<br>';
+        }
+    }
       // インスタンス化
       $animal = new Animal('dog',60);
 
+      
+      
+      $animal->show_height();
       print_r($animal);
+      
+
       ?>
       </p>
 </body>
